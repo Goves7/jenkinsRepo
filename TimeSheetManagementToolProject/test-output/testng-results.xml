@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[onStart]]>
+    </line>
+    <line>
+      <![CDATA[onTestStart]]>
+    </line>
+    <line>
+      <![CDATA[onTestSuccess]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-12-12T13:24:45 IST" name="Default suite" finished-at="2023-12-12T13:24:53 IST" duration-ms="7333">
+    <groups>
+    </groups>
+    <test started-at="2023-12-12T13:24:45 IST" name="Default test" finished-at="2023-12-12T13:24:53 IST" duration-ms="7333">
+      <class name="testPackage.DeleteAllTestCase">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testPackage.DeleteAllTestCase@272113c4]" started-at="2023-12-12T13:24:45 IST" name="setUp" finished-at="2023-12-12T13:24:49 IST" duration-ms="3235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="deleteMethod()[pri:0, instance:testPackage.DeleteAllTestCase@272113c4]" started-at="2023-12-12T13:24:49 IST" name="deleteMethod" finished-at="2023-12-12T13:24:52 IST" duration-ms="3204" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[onTestStart]]>
+            </line>
+            <line>
+              <![CDATA[onTestSuccess]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- deleteMethod -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testPackage.DeleteAllTestCase@272113c4]" started-at="2023-12-12T13:24:52 IST" name="tearDown" finished-at="2023-12-12T13:24:53 IST" duration-ms="807" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testPackage.DeleteAllTestCase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
